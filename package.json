@@ -1,6 +1,6 @@
 {
   "name": "egg-router-plus-x",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "The missing router features for eggjs",
   "eggPlugin": {
     "name": "routerPlusX"
