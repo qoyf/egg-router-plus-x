@@ -19,7 +19,7 @@ module.exports = app => {
    * Router namespace list
    * @return {Array<Array<String | Router>>} Return Router namespace list with special prefix
    */
-  app.router.routers = (...args) => {
+  app.router.routers = () => {
     return router.routers;
   };
 
