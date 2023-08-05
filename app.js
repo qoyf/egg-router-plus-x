@@ -14,6 +14,16 @@ module.exports = app => {
     },
   });
 
+
+  /**
+   * Router namespace list
+   * @return {Array<Array<String | Router>>} Return Router namespace list with special prefix
+   */
+  app.router.routers = (...args) => {
+    return router.routers;
+  };
+
+
   /**
    * get sub router
    *
@@ -35,7 +45,7 @@ module.exports = app => {
   // patch loadRouter
   // load sub routers first
   const loadRouter = app.loader.loadRouter;
-  app.loader.loadRouter = function() {
+  app.loader.loadRouter = function () {
     new app.loader.FileLoader({
       directory: path.join(app.baseDir, 'app/router'),
       target: {},
