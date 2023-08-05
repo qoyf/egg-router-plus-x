@@ -1,9 +1,9 @@
 {
-  "name": "egg-router-plus",
-  "version": "2.0.0",
+  "name": "egg-router-plus-x",
+  "version": "2.0.1",
   "description": "The missing router features for eggjs",
   "eggPlugin": {
-    "name": "routerPlus"
+    "name": "routerPlusX"
   },
   "keywords": [
     "egg",
@@ -50,13 +50,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-router-plus.git"
+    "url": "git+https://github.com/qoyf/egg-router-plus-x.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg-router-plus/issues"
+    "url": "https://github.com/qoyf/egg-router-plus-x/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-router-plus#readme",
-  "author": "TZ <atian25@qq.com>",
+  "homepage": "https://github.com/qoyf/egg-router-plus#readme",
+  "author": "",
   "license": "MIT",
   "types": "index.d.ts"
 }
